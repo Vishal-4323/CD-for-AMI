@@ -1,0 +1,7 @@
+#!/bin/bash
+
+apt update -y
+cd /home/ubuntu
+git clone https://github.com/Vishal-4323/CD-for-AMI.git
+mv CD-for-AMI/api.py Project/
+rm -r CD-for-AMI
