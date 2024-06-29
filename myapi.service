@@ -1,0 +1,10 @@
+[Unit]
+Description=My API Service
+
+[Service]
+WorkingDirectory=/home/ubuntu/Project/
+User=ubuntu
+ExecStart=/usr/bin/python3 /home/ubuntu/Project/api.py
+
+[Install]
+WantedBy=multi-user.target
