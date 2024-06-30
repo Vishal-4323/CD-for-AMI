@@ -1,9 +1,9 @@
 import pymysql
 from flask import Flask, jsonify, request
 
-host = ''
-user = ''
-password = ''
+host = ${host}
+user = ${user}
+password = ${password}
 database = 'bus'
 port = 3306
 
